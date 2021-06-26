@@ -242,7 +242,8 @@ function breakStatement(numero) {
   for (i = 0 ; i < 10 ; i++) {
     nuevoNumero += 2;
     if (i === nuevoNumero) {
-      return 'Se interrumpió la ejecución';
+      respuesta = 'Se interrumpió la ejecución';
+      break;
     } else {
       respuesta[i] = nuevoNumero;
     }
