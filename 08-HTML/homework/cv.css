@@ -1,0 +1,45 @@
+body {
+    background: url("https://image.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149008682.jpg");
+}
+#container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
+    padding: 0px;
+    background: url("https://assets.awwwards.com/awards/images/2012/10/patterns-thumb.png");
+}
+div {
+    margin: 0px auto 15px auto;
+    width: 600px;
+    background: url("https://image.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg");
+    font-size: 16px;
+    padding: 7px;
+}
+#firstDiv {
+    position: relative;
+    margin: 20px auto 20px auto;
+    width: 100%;
+}
+#firstDiv p {
+    font-size: 14px;
+    font-style: italic;
+}
+#fotoCV {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    height: 90%;
+}
+.seccion {
+    border-left: 4px black solid;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 4px rgb(37, 37, 37) solid;
+}

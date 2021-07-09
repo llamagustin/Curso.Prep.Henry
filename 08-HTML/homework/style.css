@@ -1,0 +1,37 @@
+body {
+    background: repeat url("https://i.pinimg.com/originals/d9/8a/47/d98a47603cea4b1fa893270883ef3120.jpg");
+}
+.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.divClass {
+    margin: 0px auto;
+    background-color: white;
+}
+h1 {
+    color: orange;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    margin: 0px auto;
+    width: 500px;
+    height: 600px;
+    background-color:palegreen;
+    padding: 50px;
+    border: 5px dotted green;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
